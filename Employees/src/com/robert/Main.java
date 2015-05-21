@@ -17,6 +17,7 @@ public class Main {
         for (Employee e: staff)
         {
             System.out.println("Name: " + e.getName() + ", salary: " + e.getSalary());
+            System.out.println( e.getDescription());
         }
     }
 }
