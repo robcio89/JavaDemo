@@ -44,4 +44,10 @@ public class EmployeeTest {
 
 		assertEquals(emp.getSalary(), 39600, 0);
 	}
+
+	@Test
+	public void testGetDescription() throws Exception {
+		String desc = "Employee: Adam Nowak";
+		assertEquals(emp.getDescription(), desc);
+	}
 }
